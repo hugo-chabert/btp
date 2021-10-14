@@ -10,7 +10,7 @@ body{
     margin: 0;
     padding: 0;
     width: 15%;
-    background-color: #94b0da;
+    background-color: #DCEDFF;
     position: fixed;
     height: 100%;
     overflow: auto;
@@ -26,7 +26,7 @@ body{
 }
   
 .li a.active {
-    background-color: #94b0da;
+    background-color: #DCEDFF;
 }
   
 .li a:hover:not(.active) {
@@ -76,4 +76,65 @@ body{
 .titreEQ{
     font-family: 'Roboto',Helvetica,Arial,Lucida,sans-serif;
     letter-spacing: 1px;
+}
+
+.containerForm{
+    background-color: #505A5B;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 2%;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #8F91A2;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+  
+input[type=text]:focus {
+    border: 3px solid #343F3E;
+}
+  
+textarea:focus{
+  border: 3px solid #343F3E;
+}
+
+textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #8F91A2;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+    height: 150px;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: #DCEDFF;
+    border: none;
+    padding: 3% 30%;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-left: 15%;
+    
+}
+
+label{
+    font-family: 'Roboto',Helvetica,Arial,Lucida,sans-serif;
+    letter-spacing: 1px;
+    color: white;
+}
+
+::placeholder{
+    font-family: 'Roboto',Helvetica,Arial,Lucida,sans-serif;    
 }
