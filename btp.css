@@ -10,7 +10,7 @@ body{
     margin: 0;
     padding: 0;
     width: 15%;
-    background-color: #94b0da;
+    background-color: #dcedff;
     position: fixed;
     height: 100%;
     overflow: auto;
@@ -50,4 +50,63 @@ body{
 .imgEKIP{
     width: 25%;
     height: 25%;
+}
+
+.containALL {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.containerPresentation {
+    display: flex;
+    flex-direction: row;
+    background-repeat: no-repeat;
+    background-size: 1100px 600px;
+    background-image: url("images/hard-hat-4274430.jpg");
+    background-position: center;
+    height: 20%;
+}
+
+.containTheRest {
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+.PresBTP {
+    height: 20%;
+    margin-top: 1%;
+}
+
+.txtOnPresBTP {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Roboto',Helvetica,Arial,Lucida,sans-serif;
+    align-items: start;
+    color: whitesmoke;
+    margin-left: 5%;
+    width: 300px;
+    height: 200px;
+}
+
+.OPAK {
+    background-color: rgba(0,0,0,0.5);
+    width: 450px;
+    height: 70px;
+    padding: 2px;
+    letter-spacing: 1px;
+    color: whitesmoke;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.MoveToEndOfBox {
+    letter-spacing: 1px;
+    padding-bottom: 5px;
+    margin-bottom: 0;
+}
+.IMGS {
+
 }
