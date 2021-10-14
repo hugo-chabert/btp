@@ -1,0 +1,47 @@
+body{
+    padding: 0;
+    margin: 0;
+    height: 100% !important;
+}
+
+.header {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 15%;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    font-family: 'Roboto',Helvetica,Arial,Lucida,sans-serif;
+}
+  
+.li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+  
+.li a.active {
+    background-color: rgb(0, 191, 255);
+    color: white;
+}
+  
+.li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+
+.headerDroite{
+    margin-left:15%;
+    padding:1px 16px;
+    height:1000px;
+}
+
+.titreAccueil{
+    font-family: 'Roboto',Helvetica,Arial,Lucida,sans-serif;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
