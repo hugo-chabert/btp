@@ -47,7 +47,33 @@ body{
     font-weight: bold;
 }
 
-.imgEKIP{
-    width: 25%;
-    height: 25%;
+.imgEquipe{
+    width: 90%;
+}
+
+.containerEquipe{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10%;    
+    margin-left: 10%;
+    margin-top: 10%;
+}
+
+
+.equipeGauche{
+    width: 40%;
+}
+
+.equipeDroite{
+    display: flex;
+    flex-direction: row;
+    width: 60%;    
+    justify-content: center;
+    margin-right: 10%;    
+    margin-top: 10%;
+}
+
+.titreEQ{
+    font-family: 'Roboto',Helvetica,Arial,Lucida,sans-serif;
+    letter-spacing: 1px;
 }
