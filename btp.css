@@ -2,6 +2,7 @@ body{
     padding: 0;
     margin: 0;
     height: 100% !important;
+    background-color: #8f91a2;
 }
 
 .header {
@@ -9,11 +10,12 @@ body{
     margin: 0;
     padding: 0;
     width: 15%;
-    background-color: #f1f1f1;
+    background-color: #94b0da;
     position: fixed;
     height: 100%;
     overflow: auto;
     font-family: 'Roboto',Helvetica,Arial,Lucida,sans-serif;
+    letter-spacing: 1px;
 }
   
 .li a {
@@ -24,12 +26,11 @@ body{
 }
   
 .li a.active {
-    background-color: rgb(0, 191, 255);
-    color: white;
+    background-color: #94b0da;
 }
   
 .li a:hover:not(.active) {
-    background-color: #555;
+    background-color: #343f3e;
     color: white;
 }
 
