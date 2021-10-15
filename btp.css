@@ -149,3 +149,37 @@ label{
     letter-spacing: 1px;
     color: #DCEDFF;
 }
+
+.titreReal{
+    text-align: center;
+    font-family: 'Roboto',Helvetica,Arial,Lucida,sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #343F3E;
+}
+
+.containerReal{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10%;    
+    margin-top: 5%;
+}
+
+.imgReal{
+    width: 80%;
+    border-radius: 5%;
+}
+
+.droiteReal{
+    width: 50%;
+    display: flex;
+    flex-direction: column;    
+    align-items: center;
+}
+.gaucheReal{
+    width: 50%;
+    display: flex;
+    flex-direction: column;    
+    align-items: center;
+}
