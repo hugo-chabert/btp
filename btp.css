@@ -80,6 +80,8 @@ body{
     font-family: 'Roboto',Helvetica,Arial,Lucida,sans-serif;
     letter-spacing: 1px;
     text-align: center;
+    margin-top: 20px;
+    color: #DCEDFF;
 }
 
 .containerForm{
@@ -177,13 +179,33 @@ label{
     width: 50%;
     display: flex;
     flex-direction: column;    
-    align-items: center;
+    align-items: center;    
+    justify-content: center;
 }
 .gaucheReal{
     width: 50%;
     display: flex;
     flex-direction: column;    
     align-items: center;
+    justify-content: center;
+}
+
+.texteReal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Roboto',Helvetica,Arial,Lucida,sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    background-color: #DCEDFF;
+    border: solid #343F3E 4px;
+    border-radius: 10%;
+    width: 40%;
+    height: 30%;
+    color: #343F3E;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, .2);
 }
 
 .containALL {
