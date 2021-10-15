@@ -48,34 +48,36 @@ body{
 }
 
 .imgEquipe{
-    width: 90%;
+    width: 80%;
+    border-radius: 10%;
 }
 
 .containerEquipe{
     display: flex;
     flex-direction: row;
     margin-bottom: 10%;    
-    margin-left: 10%;
     margin-top: 10%;
 }
 
 
 .equipeGauche{
-    width: 40%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;    
+    align-items: center;
 }
 
 .equipeDroite{
+    width: 50%;
     display: flex;
-    flex-direction: row;
-    width: 60%;    
-    justify-content: center;
-    margin-right: 10%;    
-    margin-top: 10%;
+    flex-direction: column;    
+    align-items: center;
 }
 
 .titreEQ{
     font-family: 'Roboto',Helvetica,Arial,Lucida,sans-serif;
     letter-spacing: 1px;
+    text-align: center;
 }
 
 .containerForm{
@@ -137,4 +139,13 @@ label{
 
 ::placeholder{
     font-family: 'Roboto',Helvetica,Arial,Lucida,sans-serif;    
+}
+
+.equipeTitre{
+    text-align: center;
+    font-family: 'Roboto',Helvetica,Arial,Lucida,sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #DCEDFF;
 }
