@@ -42,13 +42,6 @@ body{
     height:1000px;
 }
 
-.titreAccueil{
-    font-family: 'Roboto',Helvetica,Arial,Lucida,sans-serif;
-    text-align: center;
-    font-size: 30px;
-    font-weight: bold;
-}
-
 .imgEquipe{
     width: 80%;
     border-radius: 10%;
@@ -259,6 +252,11 @@ label{
     margin-left: 2%;
 }
 
+/* CAROUSEL */
+
+
+/* CAROUSEL */
+
 
 .txtText {
     height: 60px;
@@ -326,3 +324,69 @@ label{
     height: 300px;
     width: 300px;
 }
+
+.titreAccueil{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.titreAccueil h1{
+    display: flex;
+    align-self: center;
+    font-size: 50px;
+    font-family: 'Roboto',Helvetica,Arial,Lucida,sans-serif;
+    color: #94b0da;
+}
+
+.columnBesideLOGO {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.resizeTxtBigger {
+    font-size: 50px;
+    margin-bottom: 0;
+    color: #DCEDFF;
+    text-shadow: 15px 15px 8px rgba(0, 0, 0, 0.53);
+}
+
+.colorWhiteWithShadowless {
+    color: whitesmoke;
+    text-shadow: 15px 15px 8px rgba(0, 0, 0, 0.53);
+}
+
+.RectBox2 {
+    height: 50vh;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: 'Roboto',Helvetica,Arial,Lucida,sans-serif;
+    letter-spacing: 1px;
+    color: whitesmoke;
+}
+
+.rectBoxALINGinEND {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: start;
+}
+.rectBoxALINGinEND button {
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 100px;
+    background-color: #DCEDFF;
+}
+
+.rectBoxALINGinEND a {
+    text-decoration: none;
+    color: black;
+}
+
