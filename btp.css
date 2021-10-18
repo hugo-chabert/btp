@@ -482,3 +482,7 @@ label{
     text-decoration: none;
     color: black;
 }
+
+.footerDePaque{
+    opacity: 0%;
+}
